@@ -5,7 +5,7 @@ describe "Viewing todo items" do
 
   def visit_todo_list(list)
     visit "/todo_lists"
-    within "#todo_list_#{todo_list.id}" do
+    within "#todo_list_#{todo_list.id}" do #check to be sure this line of code is correctly written
       click_link "List Items"
     end
   end
