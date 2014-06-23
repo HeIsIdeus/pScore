@@ -22,7 +22,42 @@ div.flash.success { border: 2px solid black; color: blue; }
 div.flash.error { border: 2px solid black; color: red; }
 div.flash.notice { border: 2px solid white; color: blue; }
 
+.clear { clear: both; }
 
+div.nav {
+  border-bottom: 2px solid #aaa;
+  margin-bottom: 20px;
+  padding: 5px 00 10px;
+}
 
+div.nav h1 {
+  float: left;
+  margin: 0 1em 0 0;
+}
 
+div.nav a { text-decoration: none !important; }
 
+div.nav ul {
+  float: left;
+  list-style: none;
+  clear: right;
+  margin: 0 0 0 1em;
+  padding: 0;
+}
+
+div.nav ul li {
+  float: left;
+}
+
+div.nav ul li a {
+  display: block;
+  width: auto;
+  padding: 3px 5px 8px 10px;
+  background: #eee;
+  color: blue;
+}
+
+div.nav ul li a:hover {
+  background: #aaa;
+  color: orange;
+}
