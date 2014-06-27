@@ -12,7 +12,9 @@
  *
  *= require_tree .
  *= require_self
+ *= require bootstrap_and_overrides
  */
+
 div.alert {
   border: 2px solid #7088099;
   padding: 10px;
